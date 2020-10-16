@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+dependencies {
+    implementation 'com.google.guava:guava'
+}
+
+application {
+    mainClassName = 'com.itlbv.DIYarrayList'
+}
