@@ -19,6 +19,11 @@ public class DIYArrayList<T> implements List<T> {
     size = 0;
   }
 
+  public DIYArrayList(int initialSize) {
+    data = new Object[initialSize];
+    size = initialSize;
+  }
+
   @Override
   public boolean add(T t) {
     if (size == data.length) {
